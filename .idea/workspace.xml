@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e0855e8-7d02-4797-814f-478129154444" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/DogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/MuvieApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/play/gameprogect/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/drago.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/mario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ocean.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/MuvieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/MuvieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/play/gameprogect/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/play/gameprogect/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697719808337</updated>
-      <workItem from="1697719809444" duration="5323000" />
+      <workItem from="1697719809444" duration="6134000" />
     </task>
     <servers />
   </component>

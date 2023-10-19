@@ -12,7 +12,7 @@ public class MuvieApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MuvieApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 364, 195);
+        Scene scene = new Scene(fxmlLoader.load(), 372, 195);
         stage.setTitle("Dog-Maks");
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setScene(scene);
