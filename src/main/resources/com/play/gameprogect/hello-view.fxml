@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="195.0" prefWidth="672.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.play.gameprogect.DogController">
+   <children>
+      <ImageView fx:id="bj1" fitHeight="218.0" fitWidth="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/images.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bj2" fitHeight="199.0" fitWidth="356.0" layoutX="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/images.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player" fitHeight="75.0" fitWidth="91.0" layoutX="36.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mario.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
