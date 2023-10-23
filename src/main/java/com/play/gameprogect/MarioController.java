@@ -1,18 +1,14 @@
 package com.play.gameprogect;
 
-import javafx.animation.Animation;
-import javafx.animation.Interpolator;
-import javafx.animation.ParallelTransition;
-import javafx.animation.TranslateTransition;
+import javafx.animation.*;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.util.Duration;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class DogController {
+public class MarioController {
 
     @FXML
     private ResourceBundle resources;
@@ -26,6 +22,34 @@ public class DogController {
     private final int BJ_WITH = 356;
 
     private ParallelTransition parallelTransition;
+
+    // змінні для прижка
+    public static boolean right = false;
+    public static boolean left = false;
+
+    public static boolean jump = false;
+
+    private int playerSpeed = 3, jumpDownSpeed = 5;
+
+    // створюємо сам обьект і виділяємо для нього память
+
+    AnimationTimer timer = new AnimationTimer() {
+        @Override
+        public void handle(long l) { // буде виконуватись постійно поки йде
+            if (jump && player.getLayoutY() > 25f) // підняття маріо
+                player.setLayoutY(player.getLayoutY() - playerSpeed);
+            else if(player.getLayoutY() <= 80f) { // якщо гравець вище цієї координати опускаємо вниз
+             jump = false;
+                player.setLayoutY(player.getLayoutY() + jumpDownSpeed); // тут вже двігаємо до низу гравця
+            }
+            if (right && player.getLayoutX() < 250f) // куди рухаємся + обмеження по горизогталі
+                player.setLayoutX(player.getLayoutX() + playerSpeed); // якби змінюємо координату по х
+            if (left && player.getLayoutX() > 28f)
+                player.setLayoutX(player.getLayoutX() - playerSpeed);
+
+
+        }
+    };
 
     @FXML
     void initialize() { // тут створюємо анімацію
@@ -51,6 +75,8 @@ public class DogController {
         parallelTransition = new ParallelTransition(bjFirstTranzition, bjSecondTranzition);
         parallelTransition.setCycleCount(Animation.INDEFINITE); // безкінечне число повторів
         parallelTransition.play();
+
+        timer.start(); // запуск таймера в момент запуска вікна
 
 
     }
