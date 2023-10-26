@@ -36,6 +36,9 @@ public class MuvieApplication extends Application {
                 MarioController.left = false;
             if (e.getCode() == KeyCode.D) // відслідковуємо відтиск клавіші d
                 MarioController.right = false;
+
+            if (e.getCode() == KeyCode.ESCAPE) // в момент витиску клавіші буде пауза
+                MarioController.isPause = !MarioController.isPause;
         });
 
 

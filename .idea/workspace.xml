@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e0855e8-7d02-4797-814f-478129154444" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/MarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/MarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/MarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/MuvieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/play/gameprogect/MuvieApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/play/gameprogect/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/play/gameprogect/hello-view.fxml" afterDir="false" />
     </list>
@@ -70,7 +70,9 @@
       <workItem from="1697901113977" duration="1387000" />
       <workItem from="1698046813694" duration="1241000" />
       <workItem from="1698065488827" duration="2838000" />
-      <workItem from="1698088119265" duration="3898000" />
+      <workItem from="1698088119265" duration="4136000" />
+      <workItem from="1698331130835" duration="3665000" />
+      <workItem from="1698346631643" duration="1738000" />
     </task>
     <servers />
   </component>

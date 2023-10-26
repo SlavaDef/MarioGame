@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-
+<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0" prefWidth="672.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.play.gameprogect.MarioController">
    <children>
@@ -17,10 +18,30 @@
             <Image url="@../../../images/sky.jpg" />
          </image>
       </ImageView>
-      <ImageView fx:id="player" fitHeight="73.0" fitWidth="97.0" layoutX="34.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="player" fitHeight="73.0" fitWidth="97.0" layoutX="14.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/mario.png" />
          </image>
       </ImageView>
+      <ImageView fx:id="enemy1" fitHeight="35.0" fitWidth="34.0" layoutX="434.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/drago.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy2" fitHeight="43.0" fitWidth="50.0" layoutX="575.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/dog.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelPause" focusTraversable="false" layoutX="198.0" layoutY="39.0" text="Pause" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelLose" focusTraversable="false" layoutX="223.0" layoutY="46.0" prefHeight="43.0" prefWidth="127.0" text="LOSER" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
